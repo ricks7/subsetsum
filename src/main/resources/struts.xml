@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<!--  http://stackoverflow.com/questions/11803837/deploying-struts-2-and-jersey-in-glassfish-->
+    <constant name="struts.action.extension" value="action" />
+	<constant name="struts.devMode" value="true" />
+
+	<package name="default" extends="struts-default" namespace="/">
+		<action name="runSubsetSum" method="runSubsetSum"
+			class="com.sparetire.subsetsum.action.SubsetSumAction">
+			<result type="freemarker" name="success">/WEB-INF/ftl/index.ftl
+			</result>
+			<result type="freemarker" name="input">/WEB-INF/ftl/index.ftl</result>
+		</action>
+	</package>
+</struts>

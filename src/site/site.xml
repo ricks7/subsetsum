@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/DECORATION/1.3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/DECORATION/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd"
+   name="Rules Demo">
+
+  <body>
+
+    <menu name="Requirements">
+    <item name="Docs" href="index.html"/>
+    </menu>
+    <menu name="Developer">
+    	<item name="Info" href="team-list.html"/>
+    </menu>
+     <menu name="Source">
+    	<item name="Code" href="source-repository.html"/>
+    </menu>
+    <menu name="Online Demo">
+       <item name="Struts2 on Cloud" href="http://subsetsum.cloudfoundry.com/"/>
+	</menu>
+	<menu name="Mobile App Demo">
+       <item name="Info" href="mobile.html"/>
+	</menu>
+   <menu name="Reports">
+       <item name="Coverage" href="jacoco/index.html"/>
+	</menu>
+	 <menu name="Java">
+       <item name="Docs" href="apidocs/index.html"/>
+	</menu>
+  <menu name="Dependancies">
+      <item name="Info" href="dependencies.html"/>
+      </menu>
+  </body>
+
+</project>
