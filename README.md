@@ -29,3 +29,5 @@ SubsetSum 9 1 2 3 5 7 10
 
 SubsetSum 100 1 2 3 5 7 10
 No combination matches
+
+PS. Feel free to email either ricksoza@gmail.com if you have any questions about this spec or the system you are implementing.
